@@ -1,0 +1,32 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=devicd-width,intial scale=1.0">
+<title>DOCUMENT</title>
+
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <h2>Welcome to the Student Sign-up Form</h2>
+    <form>
+        <!--Name-->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <!--Email-->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <!--Password-->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <!--Confirm Password-->
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        <!--Age-->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="6" max="120" required>
+        <!--Gender-->
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            
